@@ -21,8 +21,6 @@ jobs:
       run: npm run format:check
     - name: Lint
       run: npm run lint:check
-    - name: Test
-      run: npm test
     - name: Build
       run: npm run build
     - name: Publish
