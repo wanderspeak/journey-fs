@@ -23,7 +23,7 @@ export class JourneyFS implements IJourney {
   }
 
   public static resume(directory: string): Promise<JourneyFS> {
-    return JourneyIO.retrieve(directory).then((journey) => {
+    return JourneyIO.retrieve(directory).then((journey: Journey) => {
       return new JourneyFS(directory, journey);
     });
   }

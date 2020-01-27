@@ -1,5 +1,7 @@
 # Wanderspeak: Journey
 
+![CI](https://github.com/wanderspeak/journey-fs/workflows/CI/badge.svg)
+
 This typescript library provides a wrapper around the Journey API that is able to write and read on a file system.
 
 ## Beginning a journey
